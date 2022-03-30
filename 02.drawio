@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T09:45:39.855Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.121 Safari/537.36" etag="a9K_mcWcRri6Jr9sEbsb" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-30T09:53:24.915Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.121 Safari/537.36" etag="PVKo-HkAyfVvjgcGyDPY" version="17.1.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1276" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1276" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -188,7 +188,7 @@
         <mxCell id="7uttXcWnMjAp7hEi08gL-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="cKqCetiXLwIk9B-9njqK-151" target="cKqCetiXLwIk9B-9njqK-230">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cKqCetiXLwIk9B-9njqK-151" value="Medecine" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+        <mxCell id="cKqCetiXLwIk9B-9njqK-151" value="Medicine" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="985" y="685" width="180" height="170" as="geometry" />
         </mxCell>
         <mxCell id="cKqCetiXLwIk9B-9njqK-152" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="cKqCetiXLwIk9B-9njqK-151" vertex="1">
@@ -912,8 +912,8 @@
             <mxRectangle width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7uttXcWnMjAp7hEi08gL-75" value="&lt;b style=&quot;font-size: 16px&quot;&gt;&lt;u&gt;Requirments not displayable in the Relational model&lt;br&gt;&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;- A patient has to be either an Adult or a Child&lt;br&gt;- A child can be engaged in at most 2 &quot;Has&quot; relationships&lt;br&gt;- The attribute &#39;Age&#39; of Child must be smaller than 18&lt;br&gt;- The attribute &#39;Age&#39; of Adult must be at least 18&lt;br&gt;- A Doctor has to be either an Manager, a Resident or a Staff&lt;br&gt;- Only one of the Doctors can be a Manager&lt;br&gt;- A medecine are at least on of Painkillers, Antibiotic or Other." style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="950" width="410" height="150" as="geometry" />
+        <mxCell id="7uttXcWnMjAp7hEi08gL-75" value="&lt;b style=&quot;font-size: 16px&quot;&gt;&lt;u&gt;Requirments not displayable in the Relational model&lt;br&gt;&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;- A patient has to be either an Adult or a Child&lt;br&gt;- The Toy Name attribute of Toy is a descriminant.&lt;br&gt;- A child can be engaged in at most 2 &quot;Has&quot; relationships&lt;br&gt;- The attribute &#39;Age&#39; of Child must be smaller than 18&lt;br&gt;- The attribute &#39;Age&#39; of Adult must be at least 18&lt;br&gt;- A Doctor has to be either an Manager, a Resident or a Staff&lt;br&gt;- Only one of the Doctors can be a Manager&lt;br&gt;- A Medecine are at least on of Painkillers, Antibiotic or Other.&lt;br&gt;-&amp;nbsp;A Medecine can be either regulated or experimental" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="940" width="410" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
