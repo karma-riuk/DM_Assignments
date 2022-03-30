@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T09:25:57.088Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.121 Safari/537.36" etag="krpVHWacr72p8WtZEZpH" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-30T09:35:17.226Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.121 Safari/537.36" etag="IfRqKb0o5qYsV46Z6pyE" version="17.1.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1110" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1276" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,7 +15,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-26" value="ID NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-24" vertex="1">
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-26" value="ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-24" vertex="1">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -121,7 +121,7 @@
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cKqCetiXLwIk9B-9njqK-91" value="Nickname" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="cKqCetiXLwIk9B-9njqK-89" vertex="1">
+        <mxCell id="cKqCetiXLwIk9B-9njqK-91" value="Nickname" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontStyle=1" parent="cKqCetiXLwIk9B-9njqK-89" vertex="1">
           <mxGeometry x="60" width="120" height="30" as="geometry">
             <mxRectangle width="120" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -821,7 +821,7 @@
             <mxRectangle width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7uttXcWnMjAp7hEi08gL-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=ERzeroToMany;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="1" source="7uttXcWnMjAp7hEi08gL-18" target="cKqCetiXLwIk9B-9njqK-82">
+        <mxCell id="7uttXcWnMjAp7hEi08gL-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="1" source="7uttXcWnMjAp7hEi08gL-18" target="cKqCetiXLwIk9B-9njqK-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7uttXcWnMjAp7hEi08gL-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=ERzeroToMany;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="1" source="7uttXcWnMjAp7hEi08gL-18" target="cKqCetiXLwIk9B-9njqK-138">
@@ -912,8 +912,8 @@
             <mxRectangle width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7uttXcWnMjAp7hEi08gL-75" value="&lt;b style=&quot;font-size: 16px&quot;&gt;&lt;u&gt;Requirments not displayable in the Relational model&lt;br&gt;&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;- A patient has to be either an Adult or a Child&lt;br&gt;- The attribute &#39;Age&#39; of Child must be smaller than 18&lt;br&gt;- The attribute &#39;Age&#39; of Adult must be at least 18&lt;br&gt;- Only one of the Doctors can be a Manager" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="975" width="410" height="100" as="geometry" />
+        <mxCell id="7uttXcWnMjAp7hEi08gL-75" value="&lt;b style=&quot;font-size: 16px&quot;&gt;&lt;u&gt;Requirments not displayable in the Relational model&lt;br&gt;&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;- A patient has to be either an Adult or a Child&lt;br&gt;- A child can be engaged in at most 2 &quot;Has&quot; relationships&lt;br&gt;- The attribute &#39;Age&#39; of Child must be smaller than 18&lt;br&gt;- The attribute &#39;Age&#39; of Adult must be at least 18&lt;br&gt;- Only one of the Doctors can be a Manager" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="965" width="410" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
